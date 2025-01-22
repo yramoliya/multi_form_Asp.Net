@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+                <h1>Multi View Contoller</h1>
             <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
                 <asp:View ID="MODULE1" runat="server">
                     name : <asp:TextBox ID="nametext" runat="server"></asp:TextBox>
